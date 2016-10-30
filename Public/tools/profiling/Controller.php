@@ -289,7 +289,7 @@ abstract class Controller extends ControllerCore
         $this->total_cache_size = $this->getVarSize($cache);
 
         // Retrieve module perfs
-        $result = Db::getInstance()->ExecuteS('
+        $result = Db::getInstance()->executeS('
     		SELECT *
     		FROM '._DB_PREFIX_.'modules_perfs
     		WHERE session = '.(int)Module::$_log_modules_perfs_session.'
