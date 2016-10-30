@@ -2,12 +2,3 @@
 Runtime/
 Data/
 Test/
-
-# Development mode ...
-.htaccess
-Application/
-Config/
-I18n/
-LICENSE
-Public/
-Vendor/
